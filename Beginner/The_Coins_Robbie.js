@@ -15,7 +15,6 @@ rl.on('line', (N) =>{
     let Vi;
     let number_Gloria;
     let M_arr = [];
-    console.log(M)
 
     for(i = 1; i < M; i++){
         Vi = Math.floor((Math.random() * (500 - 1 + 1)) + 1);
@@ -34,5 +33,23 @@ rl.on('line', (N) =>{
 })
 
 function The_Coins_Of_Robbie(N,arr){
-console.log("Aqui o valor do array " + arr)
+  let value_salto = arr[N];
+  let teste = [];
+  let teste2 = [];
+  let i = 0;
+  let arr_salto = []
+  arr_salto.push(value_salto)
+  let first_value = arr.slice
+  console.log("Valor de N " + N)
+let value_arr = arr.slice(N);
+teste = value_arr[0]
+
+
+if(value_salto % 2 == 0 || value_salto % 3 == 0){
+  // console.log(arr)
+  // console.log("Número que não é primo " + value_salto)
+}else{
+  // console.log(arr)
+  // console.log("Número primo " + value_salto)
+}
 }
